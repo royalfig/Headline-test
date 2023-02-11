@@ -4,6 +4,18 @@
     {{#post}}
         <article class="gh-article {{post_class}}">
 
+                                {{^if @member.paid}}
+                         <div id="ad" style="width: auto; min-height: 250px; text-align: center; margin: var(--gap) auto var(--gap) auto;">
+                         <p style="font-size: 1.4rem; color: var(--color-secondary-text);">ADVERTISEMENT</p>
+                         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6412983364226137" crossorigin="anonymous"></script>
+                         <!-- Furrimals - display ad -->
+                         <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-6412983364226137" data-ad-slot="8994598705"></ins>
+                         <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                         </script>
+                         </div>
+                    {{/if}}
+
             <header class="gh-article-header gh-canvas">
                 {{#if primary_tag}}
                     <a class="gh-article-tag" href="{{primary_tag.url}}">{{primary_tag.name}}</a>
@@ -21,13 +33,51 @@
             </header>
 
             <section class="gh-content gh-canvas">
+
+                                    {{^if @member.paid}}
+                         <div id="ad" style="width: auto; min-height: 250px; text-align: center; margin: var(--gap) auto var(--gap) auto;">
+                         <p style="font-size: 1.4rem; color: var(--color-secondary-text);">ADVERTISEMENT</p>
+                         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6412983364226137" crossorigin="anonymous"></script>
+                         <!-- Furrimals - display ad -->
+                         <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-6412983364226137" data-ad-slot="8994598705"></ins>
+                         <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                         </script>
+                         </div>
+                    {{/if}}
+
                 {{content}}
+
+                                    {{^if @member.paid}}
+                         <div id="ad" style="width: auto; min-height: 250px; text-align: center; margin: var(--gap) auto var(--gap) auto;">
+                         <p style="font-size: 1.4rem; color: var(--color-secondary-text);">ADVERTISEMENT</p>
+                         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6412983364226137" crossorigin="anonymous"></script>
+                         <!-- Furrimals - display ad -->
+                         <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-6412983364226137" data-ad-slot="8994598705"></ins>
+                         <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                         </script>
+                         </div>
+                    {{/if}}
+
             </section>
 
         </article>
     {{/post}}
 
     {{> "related-posts"}}
+
+                    {{^if @member.paid}}
+                         <div id="ad" style="width: auto; min-height: 250px; text-align: center; margin: var(--gap) auto var(--gap) auto;">
+                         <p style="font-size: 1.4rem; color: var(--color-secondary-text);">ADVERTISEMENT</p>
+                         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6412983364226137" crossorigin="anonymous"></script>
+                         <!-- Furrimals - display ad -->
+                         <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-6412983364226137" data-ad-slot="8994598705"></ins>
+                         <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                         </script>
+                         </div>
+                    {{/if}}
 
     {{#post}}
         {{> "comments"}}
